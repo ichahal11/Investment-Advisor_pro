@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Portfolio Advisor</title>
+</head>
+<body>
+    <h1>Investment Portfolio Advisor</h1>
+    <form method="POST">
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="goal">What is your financial goal?</label>
+        <select id="goal" name="goal" required>
+            <option value="retirement">Retirement</option>
+            <option value="education">Education</option>
+            <option value="wealth_accumulation">Wealth Accumulation</option>
+        </select><br><br>
+
+        <label for="timeline">What is your investment timeline?</label>
+        <select id="timeline" name="timeline" required>
+            <option value="short_term">Short-term</option>
+            <option value="medium_term">Medium-term</option>
+            <option value="long_term">Long-term</option>
+        </select><br><br>
+
+        <input type="submit" value="Generate Investment Plan">
+    </form>
+</body>
+</html>
